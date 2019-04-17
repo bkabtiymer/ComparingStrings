@@ -9,19 +9,9 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
 
-        System.out.print("Enter your name: ");
-        String firstlastName = keyboard.nextLine();
+        System.out.println("Cost\t\t\t\tQuanitiy\t\tTotal"+"\n$1,000.00\t\t\t4\t\t\t$4,000.00\n$\t50.00\t\t\t8\t\t\t$400.00\f\nTotal\t\t\t\t12\t\t\t$4,400.00");
+        String escape = keyboard.nextLine();
 
-
-        System.out.print("Enter your address: ");
-//        int houseNumber = keyboard.nextInt();
-//        keyboard.nextLine();
-        String streetName = keyboard.nextLine();
-
-        System.out.print("Enter city name: ");
-        String cityName = keyboard.nextLine();
-
-        System.out.print("My name is "+ firstlastName  + " and my address is " + streetName + cityName);
 
 
 
