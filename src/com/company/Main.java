@@ -6,24 +6,36 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double Inches_to_gallons = 231;
-
-        Integer age = 99;
-        String StrAge = age.toString();
-
-
-        System.out.print("Enter your name: ");
         Scanner keyboard = new Scanner(System.in);
-        String name=keyboard.nextLine();
 
 
-        System.out.println("Hello"+ name + "!");
-        System.out.println("Today is April 17,2019. I am alive!!");
+        System.out.print("First name: ");
+        String firstName = keyboard.nextLine();
+
+        System.out.print("Last name: ");
+        String lastName = keyboard.nextLine();
+
+        System.out.print("House number: ");
+        int houseNumber = keyboard.nextInt();
+
+        System.out.print("House street & ");
+        String streetName = keyboard.nextLine();
+
+        System.out.print("Street Type: ");
+        String streetType = keyboard.nextLine();
+
+        System.out.print("City name: ");
+        String cityName = keyboard.nextLine();
+
+        System.out.print("My name is "+ firstName + lastName + " and my address is git " + houseNumber + streetName + streetType + cityName);
 
 
 
 
 
 
-}
+
+
+
+    }
 }
