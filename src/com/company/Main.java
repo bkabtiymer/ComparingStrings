@@ -9,25 +9,19 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
 
-        System.out.print("First name: ");
-        String firstName = keyboard.nextLine();
+        System.out.print("Enter your name: ");
+        String firstlastName = keyboard.nextLine();
 
-        System.out.print("Last name: ");
-        String lastName = keyboard.nextLine();
 
-        System.out.print("House number: ");
-        int houseNumber = keyboard.nextInt();
-
-        System.out.print("House street & ");
+        System.out.print("Enter your address: ");
+//        int houseNumber = keyboard.nextInt();
+//        keyboard.nextLine();
         String streetName = keyboard.nextLine();
 
-        System.out.print("Street Type: ");
-        String streetType = keyboard.nextLine();
-
-        System.out.print("City name: ");
+        System.out.print("Enter city name: ");
         String cityName = keyboard.nextLine();
 
-        System.out.print("My name is "+ firstName + lastName + " and my address is git " + houseNumber + streetName + streetType + cityName);
+        System.out.print("My name is "+ firstlastName  + " and my address is " + streetName + cityName);
 
 
 
